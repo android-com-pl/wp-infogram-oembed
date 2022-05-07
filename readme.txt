@@ -11,5 +11,5 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 A simple plugin that adds oEmbed Infogram support.
 
 == Description ==
-A simple plugin that adds oEmbed Infogram support. Supports AMP.
-Just paste the link into the editor.
+A simple plugin that adds oEmbed Infogram support. Works with AMP.
+Simply paste the Infogram link into the editor to have it automatically embedded.
