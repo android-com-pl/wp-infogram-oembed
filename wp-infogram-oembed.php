@@ -21,7 +21,7 @@ add_action( 'init', function () {
 
 //AMP
 add_filter( 'amp_content_embed_handlers', function ( $handlerClasses ) {
-	require_once( dirname( __FILE__ ) . '/class-amp-infogram-oembed-handler.php' );
+	require_once( plugin_dir_path( __FILE__ ) . 'class-amp-infogram-oembed-handler.php' );
 	$handlerClasses['ACP_Infogram_Embed_Handler'] = [];
 
 	return $handlerClasses;
