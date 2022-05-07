@@ -12,4 +12,4 @@ A simple plugin that adds oEmbed Infogram support.
 
 == Description ==
 A simple plugin that adds oEmbed Infogram support. Works with AMP.
-Simply paste the Infogram link into the editor to have it automatically embedded.
+Just paste the Infogram link into the editor to have it automatically embedded.
