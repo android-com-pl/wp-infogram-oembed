@@ -1,4 +1,4 @@
-=== Infogram oEmbed support ===
+=== oEmbed Infogram ===
 Contributors: rafaucau
 Tags: Infogram, oEmbed, AMP, Gutenberg
 Requires at least: 5.0
