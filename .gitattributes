@@ -8,3 +8,4 @@
 # Files
 /.gitattributes export-ignore
 /.gitignore export-ignore
+/.wp-env.json export-ignore

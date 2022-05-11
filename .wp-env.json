@@ -1,4 +1,7 @@
 {
   "phpVersion": "7.4",
-  "plugins": ["."]
+  "plugins": [
+    ".",
+    "https://downloads.wordpress.org/plugin/amp.zip"
+  ]
 }
