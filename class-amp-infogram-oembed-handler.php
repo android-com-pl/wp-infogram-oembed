@@ -38,7 +38,11 @@ class ACP_Infogram_Embed_Handler extends AMP_Base_Embed_Handler {
 			$cache = AMP_HTML_Utils::build_tag(
 				'amp-iframe',
 				$attributes,
-				'<div style="visibility: hidden" overflow tabindex=0 role=button aria-label="' . __( 'Loading...' ) . '" placeholder>' . __( 'Loading...' ) . '</div>' );
+				sprintf(
+					'<div style="visibility: hidden" overflow tabindex=0 role=button aria-label="%1$s" placeholder>%1$s</div>',
+					__( 'Loading...', 'oembed-infogram' )
+				)
+			);
 		}
 
 		return $cache;
