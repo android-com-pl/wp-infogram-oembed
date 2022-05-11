@@ -8,8 +8,8 @@ Requires PHP: 7.4
 License: GPL v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-A simple plugin that adds oEmbed Infogram support.
+A simple plugin that adds support for embedding Infogram.
 
 == Description ==
-A simple plugin that adds oEmbed Infogram support. Works with AMP.
-Just paste the Infogram link into the editor to have it automatically embedded.
+A simple plugin that adds support for embedding Infogram. Works with [AMP](https://wordpress.org/plugins/amp/).
+Just paste the Infogram share link into the editor to have it automatically embedded.
