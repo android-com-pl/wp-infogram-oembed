@@ -15,5 +15,7 @@ A simple plugin that adds support for embedding Infogram.
 A simple plugin that adds support for embedding Infogram. Works with [AMP](https://wordpress.org/plugins/amp/).
 Just paste the Infogram share link into the editor to have it automatically embedded.
 
+Development of this plugin is done on [GitHub](https://github.com/android-com-pl/oembed-infogram).
+
 == Changelog ==
 For the plugin’s changelog, please see [the Releases page on GitHub](https://github.com/android-com-pl/oembed-infogram/releases).
