@@ -1,6 +1,12 @@
 <?php
 
-class ACP_Infogram_Embed_Handler extends AMP_Base_Embed_Handler {
+namespace ACP\oEmbed;
+
+use AMP_Base_Embed_Handler;
+use AMP_HTML_Utils;
+use DOMDocument;
+
+class Infogram_Embed_Handler extends AMP_Base_Embed_Handler {
 	public function register_embed() {
 		add_filter( 'embed_oembed_html', [ $this, 'filter_embed_oembed_html' ], 10, 3 );
 	}
