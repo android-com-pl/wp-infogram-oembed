@@ -9,4 +9,4 @@
 /.gitattributes export-ignore
 /.gitignore export-ignore
 /.wp-env.json export-ignore
-/package.json
+/package.json export-ignore
