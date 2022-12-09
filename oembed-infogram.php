@@ -37,6 +37,7 @@ class Infogram {
 	private function __construct() {
 		add_action( 'init', [ $this, 'add_provider' ] );
 		add_filter( 'amp_content_embed_handlers', [ $this, 'add_amp_handler' ], 10, 2 );
+		add_filter( 'plugin_row_meta', [ $this, 'add_plugin_row_meta_links' ], 10, 4 );
 	}
 
 	public function add_provider() {
@@ -56,6 +57,28 @@ class Infogram {
 		$handler_classes[ __NAMESPACE__ . '\\Infogram_Embed_Handler' ] = [];
 
 		return $handler_classes;
+	}
+
+	/**
+	 * Adds elements to the plugin's meta row
+	 *
+	 * @param string[] $plugin_meta
+	 * @param string $plugin_file
+	 * @param array $plugin_data
+	 * @param string $status
+	 *
+	 * @return array
+	 */
+	public function add_plugin_row_meta_links( array $plugin_meta, string $plugin_file, array $plugin_data, string $status ): array {
+		if ( strpos( $plugin_file, basename( __FILE__ ) ) ) {
+			$plugin_meta[] = '<a href="https://github.com/android-com-pl/oembed-infogram">GitHub</a>';
+			$plugin_meta[] = sprintf(
+				'<a href="https://github.com/sponsors/android-com-pl">%s</a>',
+				__( 'Donate', 'oembed-infogram' )
+			);
+		}
+
+		return $plugin_meta;
 	}
 }
 
