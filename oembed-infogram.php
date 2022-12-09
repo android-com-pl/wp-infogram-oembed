@@ -3,7 +3,7 @@
  * @wordpress-plugin
  * Plugin Name:       oEmbed Infogram
  * Description:       A simple plugin that adds support for embedding Infogram.
- * Version:           1.1.0
+ * Version:           1.1.3
  * Plugin URI:        https://github.com/android-com-pl/oembed-infogram
  * Author:            android.com.pl
  * Author URI:        https://android.com.pl/
