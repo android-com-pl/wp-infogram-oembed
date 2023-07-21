@@ -73,7 +73,7 @@ class Infogram {
 		if ( str_contains( $plugin_file, basename( __FILE__ ) ) ) {
 			$plugin_meta[] = '<a href="https://github.com/android-com-pl/oembed-infogram">GitHub</a>';
 			$plugin_meta[] = sprintf(
-				'<a href="https://github.com/sponsors/android-com-pl">%s</a>',
+				'<a href="https://github.com/android-com-pl/oembed-infogram?sponsor=1">%s</a>',
 				__( 'Donate', 'oembed-infogram' )
 			);
 		}

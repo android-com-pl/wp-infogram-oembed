@@ -1,6 +1,6 @@
 === oEmbed Infogram ===
 Contributors: rafaucau
-Donate link: https://github.com/sponsors/android-com-pl
+Donate link: https://github.com/android-com-pl/oembed-infogram?sponsor=1
 Tags: Infogram, oEmbed, AMP, Gutenberg
 Requires at least: 5.9
 Tested up to: 6.2
